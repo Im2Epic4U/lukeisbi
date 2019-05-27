@@ -5,12 +5,12 @@ import os
 from discord import activity
 from discord.ext import commands
 
+sendmessages = 'true'
 client = discord.Client()
-Clayton = 379400007410909186
+OwnerID = 379400007410909186
 Nick = 269946726918389770
 Luke = 189850839660101632
 Claire = 333694007379230720
-sendmessages = 'true'
 
 @client.event
 async def on_ready():
